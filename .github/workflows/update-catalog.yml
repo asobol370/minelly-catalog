@@ -22,6 +22,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install Pillow
+
       - name: Rebuild catalog from minelly.com.ua
         run: python3 build_catalog.py
 

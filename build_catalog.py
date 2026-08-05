@@ -133,22 +133,35 @@ def parse_product(url):
 
 
 def download_image(image_url):
+    """Скачивает картинку, конвертирует в WebP 500px max side, сохраняет только .webp."""
     if not image_url:
         return None
+    from PIL import Image
+    import io
+
     fname = image_url.rsplit("/", 1)[-1]
-    local = f"images/{fname}"
-    if not os.path.exists(local):
-        req = urllib.request.Request(image_url, headers={
-            "User-Agent": UA,
-            "Referer": "https://minelly.com.ua/",
-        })
-        try:
-            with urllib.request.urlopen(req, timeout=15) as r:
-                open(local, "wb").write(r.read())
-        except Exception as e:
-            print(f"    ✗ img {fname}: {e}")
-            return None
-    return local
+    stem = fname.rsplit(".", 1)[0]
+    webp_path = f"images/{stem}.webp"
+    if os.path.exists(webp_path):
+        return webp_path
+
+    req = urllib.request.Request(image_url, headers={
+        "User-Agent": UA,
+        "Referer": "https://minelly.com.ua/",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            raw = r.read()
+        img = Image.open(io.BytesIO(raw))
+        if img.mode not in ("RGB", "RGBA"):
+            img = img.convert("RGBA")
+        # Downscale to max 500px on the longer side
+        img.thumbnail((500, 500), Image.LANCZOS)
+        img.save(webp_path, "WEBP", quality=80, method=6)
+    except Exception as e:
+        print(f"    ✗ img {fname}: {e}")
+        return None
+    return webp_path
 
 
 def main():
