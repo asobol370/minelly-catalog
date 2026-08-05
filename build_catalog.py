@@ -17,7 +17,7 @@ CATEGORIES = [
     ("melena-kava", "Мелена кава"),
     ("melena-kava-smakova", "Мелена кава смакова"),
     ("kava-spesialty", "Кава SPECIALTY"),
-    ("drip-kava", "DRIP - кава"),
+    ("drip-kava", "Дріп кава без доданків"),
     ("drip-kava-smakova", "DRIP - кава смакова"),
     ("kava-bez-kofeyinu", "Кава без кофеїну"),
     (None, "Пірамідки кави"),  # спецкейс — фиксированный список товаров
