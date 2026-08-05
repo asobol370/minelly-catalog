@@ -314,7 +314,6 @@
 						</div>
 						<div class="card-body">
 							<div class="card-name">${escapeHtml(p.name)}</div>
-							${p.weight && !/^\s*(кг|г|мл|л)?\s*$/i.test(p.weight) ? `<div class="card-weight">${escapeHtml(p.weight)}</div>` : ''}
 							${p.description ? `<div class="card-desc">${escapeHtml(p.description)}</div>` : ''}
 							<div class="card-footer">
 								<div class="card-price">${Math.round(p.price)} <small>грн</small></div>
