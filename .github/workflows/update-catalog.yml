@@ -1,0 +1,42 @@
+name: Update Minelly catalog
+
+on:
+  # Каждый день в 06:00 UTC = 09:00 по Києву
+  schedule:
+    - cron: '0 6 * * *'
+  # Кнопка "Run workflow" в UI GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rebuild catalog from minelly.com.ua
+        run: python3 build_catalog.py
+
+      - name: Inline catalog into index.html
+        run: python3 inline.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "minelly-bot"
+          git config user.email "minelly-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Auto-update catalog $(date -u +%Y-%m-%d)"
+            git push
+            echo "✓ Changes pushed"
+          else
+            echo "→ No changes"
+          fi

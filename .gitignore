@@ -1,0 +1,16 @@
+# Temporary files from parsing / dev
+sitemap.xml
+sample_product.html
+home.html
+app.css
+drip_*.html
+parse.log
+selected.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
