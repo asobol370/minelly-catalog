@@ -17,8 +17,12 @@ CATEGORIES = [
     ("melena-kava", "Мелена кава"),
     ("melena-kava-smakova", "Мелена кава смакова"),
     ("kava-spesialty", "Кава SPECIALTY"),
-    ("drip-kava", "DRIP - кава без доданків"),
-    ("drip-kava-smakova", "DRIP - кава смакова"),
+    # "Без доданків" = купажі + моносорти + без-кофеїнові моно (все без ароматизаторів)
+    (["drip-kava-kupazovana", "drip-kava-monosortova",
+      "drip-kava-bez-kofeyinu-monosortova", "drip-kava-bez-kofeyinu-kolumbiya"],
+        "DRIP - кава без доданків"),
+    # "Смакова" = ароматизовані з кофеїном + без кофеїну
+    (["drip-kava-smakova", "drip-kava-bez-kofeyinu-smakova"], "DRIP - кава смакова"),
     ("kava-bez-kofeyinu", "Кава без кофеїну"),
     (None, "Пірамідки кави"),  # спецкейс — фиксированный список товаров
     ("melena-aromatizovana", "Дегустаційні набори"),  # именно этот URL на сайте
@@ -31,7 +35,11 @@ PIRAMIDKI_SLUGS = ["piramidka-amo", "piramidka-senso", "piramidka-vero"]
 # Слаги, которые НЕ являются товарами (собираются с страниц категорий)
 NON_PRODUCT = set()
 for slug, _ in CATEGORIES:
-    if slug:
+    if slug is None:
+        continue
+    if isinstance(slug, list):
+        NON_PRODUCT.update(slug)
+    else:
         NON_PRODUCT.add(slug)
 # Родительские / вспомогательные / подкатегории (тоже не товары)
 NON_PRODUCT.update({
@@ -55,9 +63,16 @@ def fetch(url):
 
 
 def collect_products_from_category(cat_slug):
-    """Обходит все страницы категории (с pagination) и возвращает уникальные product slugs."""
+    """Обходит все страницы категории (с pagination) и возвращает уникальные product slugs.
+    cat_slug может быть строкой, списком строк (объединение) или None (спецкейс пірамідок).
+    """
     if cat_slug is None:
         return list(PIRAMIDKI_SLUGS)
+    if isinstance(cat_slug, list):
+        result = set()
+        for sub in cat_slug:
+            result.update(collect_products_from_category(sub))
+        return sorted(result)
     all_slugs = set()
     page = 1
     while True:
