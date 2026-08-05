@@ -309,7 +309,7 @@
 				});
 				grid.innerHTML = list.map(p => {
 					let name = p.name || '';
-					const hasGrams = /\d+\s*(г|кг|мл|л)\b/i.test(name);
+					const hasGrams = /\d+\s*(кг|г|мл|л)/i.test(name);
 					if (!hasGrams && p.weight) {
 						const m = String(p.weight).match(/([\d.,]+)\s*кг/i);
 						if (m) {
