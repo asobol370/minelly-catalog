@@ -1,9 +1,10 @@
 name: Update Minelly catalog
 
 on:
-  # Каждый день в 06:00 UTC = 09:00 по Києву
+  # Каждый день в 06:13 UTC = 09:13 по Києву
+  # Специально неровное время — cron ровно на начало часа GitHub задерживает 15-60 мин
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '13 6 * * *'
   # Кнопка "Run workflow" в UI GitHub
   workflow_dispatch:
 
