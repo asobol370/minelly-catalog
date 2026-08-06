@@ -87,7 +87,21 @@
       "Мелена кава",
       "Кава без кофеїну"
     ],
-    "image": "images/kolumbiya-supremo-1.webp"
+    "image": "images/kolumbiya-supremo-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 327
+      },
+      {
+        "label": "500 г",
+        "price": 617
+      },
+      {
+        "label": "1 кг",
+        "price": 1190
+      }
+    ]
   },
   {
     "name": "Кава в зернах Гондурас Марагоджип",
@@ -101,7 +115,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/gonduras-maragodzip-1.webp"
+    "image": "images/gonduras-maragodzip-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 459
+      },
+      {
+        "label": "500 г",
+        "price": 882
+      },
+      {
+        "label": "1 кг",
+        "price": 1722
+      }
+    ]
   },
   {
     "name": "Кава Гватемала Марагоджип",
@@ -115,7 +143,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/gvatemala-maragodzip.webp"
+    "image": "images/gvatemala-maragodzip.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 459
+      },
+      {
+        "label": "500 г",
+        "price": 882
+      },
+      {
+        "label": "1 кг",
+        "price": 1722
+      }
+    ]
   },
   {
     "name": "Кава Колумбія Марагоджип",
@@ -129,7 +171,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kolumbiya-maragodzip.webp"
+    "image": "images/kolumbiya-maragodzip.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 459
+      },
+      {
+        "label": "500 г",
+        "price": 882
+      },
+      {
+        "label": "1 кг",
+        "price": 1722
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «MIX 2» Смакова (12 шт.)",
@@ -157,7 +213,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/img-1224-1.webp"
+    "image": "images/img-1224-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 347
+      },
+      {
+        "label": "500 г",
+        "price": 659
+      },
+      {
+        "label": "1 кг",
+        "price": 1274
+      }
+    ]
   },
   {
     "name": "Кава в зернах Індонезія Мандхелінг",
@@ -171,7 +241,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/indoneziya-mandxeling-arabica-250-g-1.webp"
+    "image": "images/indoneziya-mandxeling-arabica-250-g-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 344
+      },
+      {
+        "label": "500 г",
+        "price": 652
+      },
+      {
+        "label": "1 кг",
+        "price": 1262
+      }
+    ]
   },
   {
     "name": "Кава Індонезія Суматра Лінтунг",
@@ -185,7 +269,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/img-2417.webp"
+    "image": "images/img-2417.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 344
+      },
+      {
+        "label": "500 г",
+        "price": 652
+      },
+      {
+        "label": "1 кг",
+        "price": 1262
+      }
+    ]
   },
   {
     "name": "Кава Індонезія Ява",
@@ -199,7 +297,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/indoneziya-yava.webp"
+    "image": "images/indoneziya-yava.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 344
+      },
+      {
+        "label": "500 г",
+        "price": 652
+      },
+      {
+        "label": "1 кг",
+        "price": 1262
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Вишня»",
@@ -213,7 +325,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/img-7212.webp"
+    "image": "images/img-7212.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 6000
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Айріш крем»",
@@ -227,7 +353,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/img-7213.webp"
+    "image": "images/img-7213.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Тірамісу»",
@@ -241,7 +381,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/dekaf-tiramisu.webp"
+    "image": "images/dekaf-tiramisu.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Ром»",
@@ -255,7 +409,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/img-7214.webp"
+    "image": "images/img-7214.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 6000
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «MIX» Смакова",
@@ -283,7 +451,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/img-7211.webp"
+    "image": "images/img-7211.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 315
+      },
+      {
+        "label": "50 шт",
+        "price": 1525
+      },
+      {
+        "label": "200 шт",
+        "price": 5900
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Апельсин»",
@@ -297,7 +479,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/img-7210.webp"
+    "image": "images/img-7210.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 315
+      },
+      {
+        "label": "50 шт",
+        "price": 1525
+      },
+      {
+        "label": "200 шт",
+        "price": 5900
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Полуничний тарт»",
@@ -311,7 +507,21 @@
       "DRIP - кава смакова",
       "Кава без кофеїну"
     ],
-    "image": "images/dekaf-polunicya.webp"
+    "image": "images/dekaf-polunicya.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 315
+      },
+      {
+        "label": "50 шт",
+        "price": 1525
+      },
+      {
+        "label": "200 шт",
+        "price": 5900
+      }
+    ]
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Декаф»",
@@ -325,7 +535,21 @@
       "DRIP - кава без доданків",
       "Кава без кофеїну"
     ],
-    "image": "images/drip-dekaf.webp"
+    "image": "images/drip-dekaf.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 310
+      },
+      {
+        "label": "50 шт",
+        "price": 1500
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Кава Гватемала Антигуа",
@@ -339,7 +563,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/img-3034.webp"
+    "image": "images/img-3034.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 308
+      },
+      {
+        "label": "500 г",
+        "price": 591
+      },
+      {
+        "label": "1 кг",
+        "price": 1120
+      }
+    ]
   },
   {
     "name": "Кава Коста Ріка Тарразу",
@@ -353,7 +591,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kosta-rika-tarrazu-1.webp"
+    "image": "images/kosta-rika-tarrazu-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 308
+      },
+      {
+        "label": "500 г",
+        "price": 579
+      },
+      {
+        "label": "1 кг",
+        "price": 1114
+      }
+    ]
   },
   {
     "name": "Кава Коста Ріка",
@@ -367,7 +619,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kosta-rika-1.webp"
+    "image": "images/kosta-rika-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 300
+      },
+      {
+        "label": "500 г",
+        "price": 562
+      },
+      {
+        "label": "1 кг",
+        "price": 1082
+      }
+    ]
   },
   {
     "name": "Кава в зернах Танзанія",
@@ -381,7 +647,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/tanzaniya-1.webp"
+    "image": "images/tanzaniya-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 300
+      },
+      {
+        "label": "500 г",
+        "price": 562
+      },
+      {
+        "label": "1 кг",
+        "price": 1082
+      }
+    ]
   },
   {
     "name": "Кава Індія Мунсунд Малабар",
@@ -395,7 +675,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/indiya-munsund-malabar-arabica-250-g.webp"
+    "image": "images/indiya-munsund-malabar-arabica-250-g.webp",
+    "variants": [
+      {
+        "label": "250г",
+        "price": 298
+      },
+      {
+        "label": "500г",
+        "price": 559
+      },
+      {
+        "label": "1 кг",
+        "price": 1074
+      }
+    ]
   },
   {
     "name": "Кава в зернах Кенія АА",
@@ -409,7 +703,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/keniya-aa-1.webp"
+    "image": "images/keniya-aa-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 298
+      },
+      {
+        "label": "500 г",
+        "price": 560
+      },
+      {
+        "label": "1 кг",
+        "price": 1078
+      }
+    ]
   },
   {
     "name": "Кава в зернах Папуа Нова Гвінея",
@@ -423,7 +731,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/papua-nova-gvineya-1.webp"
+    "image": "images/papua-nova-gvineya-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 295
+      },
+      {
+        "label": "500 г",
+        "price": 552
+      },
+      {
+        "label": "1 кг",
+        "price": 1061
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly MIX арабіки",
@@ -451,7 +773,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/gvatemala-arabika.webp"
+    "image": "images/gvatemala-arabika.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 292
+      },
+      {
+        "label": "500 г",
+        "price": 549
+      },
+      {
+        "label": "1 кг",
+        "price": 1055
+      }
+    ]
   },
   {
     "name": "Кава в зернах Руанда",
@@ -465,7 +801,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/img-9693-1.webp"
+    "image": "images/img-9693-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 287
+      },
+      {
+        "label": "500 г",
+        "price": 536
+      },
+      {
+        "label": "1 кг",
+        "price": 1033
+      }
+    ]
   },
   {
     "name": "Кава Бразилія Жовтий Бурбон",
@@ -479,7 +829,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/braziliya-zovtii-burbon-1.webp"
+    "image": "images/braziliya-zovtii-burbon-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 285
+      },
+      {
+        "label": "500 г",
+        "price": 535
+      },
+      {
+        "label": "1 кг",
+        "price": 1027
+      }
+    ]
   },
   {
     "name": "Кава Ель Сальвадор",
@@ -493,7 +857,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/el-salvador-1.webp"
+    "image": "images/el-salvador-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 285
+      },
+      {
+        "label": "500 г",
+        "price": 536
+      },
+      {
+        "label": "1 кг",
+        "price": 1027
+      }
+    ]
   },
   {
     "name": "Кава Ефіопія Їргачоф",
@@ -507,7 +885,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/efiopiya-yirgacof-1.webp"
+    "image": "images/efiopiya-yirgacof-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 284
+      },
+      {
+        "label": "500 г",
+        "price": 533
+      },
+      {
+        "label": "1 кг",
+        "price": 1022
+      }
+    ]
   },
   {
     "name": "Кава Мексика",
@@ -521,7 +913,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/mek.webp"
+    "image": "images/mek.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 281
+      },
+      {
+        "label": "500 г",
+        "price": 527
+      },
+      {
+        "label": "1 кг",
+        "price": 1012
+      }
+    ]
   },
   {
     "name": "Кава в зернах Індія Плантейшн АА",
@@ -535,7 +941,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/indiya-planteisn-aa-2.webp"
+    "image": "images/indiya-planteisn-aa-2.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 278
+      },
+      {
+        "label": "500 г",
+        "price": 519
+      },
+      {
+        "label": "1 кг",
+        "price": 995
+      }
+    ]
   },
   {
     "name": "Кава Гондурас",
@@ -549,7 +969,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/gonduras-1.webp"
+    "image": "images/gonduras-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 277
+      },
+      {
+        "label": "500 г",
+        "price": 518
+      },
+      {
+        "label": "1 кг",
+        "price": 994
+      }
+    ]
   },
   {
     "name": "Кава Ефіопія Сидамо",
@@ -563,7 +997,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/efiopiya-sidamo-1.webp"
+    "image": "images/efiopiya-sidamo-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 267
+      },
+      {
+        "label": "500 г",
+        "price": 497
+      },
+      {
+        "label": "1 кг",
+        "price": 952
+      }
+    ]
   },
   {
     "name": "Кава Колумбія Ексельсо",
@@ -577,7 +1025,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kolumbiya-ekselso.webp"
+    "image": "images/kolumbiya-ekselso.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 267
+      },
+      {
+        "label": "500 г",
+        "price": 497
+      },
+      {
+        "label": "1 кг",
+        "price": 952
+      }
+    ]
   },
   {
     "name": "Кава Колумбія Супремо",
@@ -591,7 +1053,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kolumbiya-supremo.webp"
+    "image": "images/kolumbiya-supremo.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 267
+      },
+      {
+        "label": "500 г",
+        "price": 497
+      },
+      {
+        "label": "1 кг",
+        "price": 952
+      }
+    ]
   },
   {
     "name": "Кава Бразилія Сантос",
@@ -605,7 +1081,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/braziliya-santos-1.webp"
+    "image": "images/braziliya-santos-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 245
+      },
+      {
+        "label": "500 г",
+        "price": 454
+      },
+      {
+        "label": "1 кг",
+        "price": 865
+      }
+    ]
   },
   {
     "name": "Кава Ефіопія Джима",
@@ -619,7 +1109,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/efiopiya-dzima-1.webp"
+    "image": "images/efiopiya-dzima-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 221
+      },
+      {
+        "label": "500 г",
+        "price": 406
+      },
+      {
+        "label": "1 кг",
+        "price": 768
+      }
+    ]
   },
   {
     "name": "Кава в зернах Китай Сімао",
@@ -633,7 +1137,21 @@
       "Кава в зернах",
       "Мелена кава"
     ],
-    "image": "images/kitai-simao-1.webp"
+    "image": "images/kitai-simao-1.webp",
+    "variants": [
+      {
+        "label": "250 г",
+        "price": 221
+      },
+      {
+        "label": "500 г",
+        "price": 406
+      },
+      {
+        "label": "1 кг",
+        "price": 768
+      }
+    ]
   },
   {
     "name": "Лапо-Дріп — Дріп-кава від Minelly",
@@ -933,7 +1451,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/visnya-drip-1.webp"
+    "image": "images/visnya-drip-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 330
+      },
+      {
+        "label": "50 шт",
+        "price": 1600
+      },
+      {
+        "label": "200 шт",
+        "price": 6200
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Кокос»",
@@ -946,7 +1478,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-kokos-1.webp"
+    "image": "images/drip-kokos-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 330
+      },
+      {
+        "label": "50 шт",
+        "price": 1600
+      },
+      {
+        "label": "200 шт",
+        "price": 6200
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Айріш крем»",
@@ -959,7 +1505,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-airis-1.webp"
+    "image": "images/drip-airis-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 6000
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly Кенія",
@@ -972,7 +1532,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/img-5735.webp"
+    "image": "images/img-5735.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 320
+      },
+      {
+        "label": "50 шт",
+        "price": 1550
+      },
+      {
+        "label": "200 шт",
+        "price": 6000
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Шоколад»",
@@ -985,7 +1559,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-sokolad-1.webp"
+    "image": "images/drip-sokolad-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 310
+      },
+      {
+        "label": "50 шт",
+        "price": 1500
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Кориця»",
@@ -998,7 +1586,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/img-6553.webp"
+    "image": "images/img-6553.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 310
+      },
+      {
+        "label": "50 шт",
+        "price": 1500
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly Гватемала Антигуа",
@@ -1011,7 +1613,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/img-5739.webp"
+    "image": "images/img-5739.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 310
+      },
+      {
+        "label": "50 шт",
+        "price": 1500
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Тірамісу»",
@@ -1024,7 +1640,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-tiramisu.webp"
+    "image": "images/drip-tiramisu.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 310
+      },
+      {
+        "label": "50 шт",
+        "price": 1500
+      },
+      {
+        "label": "200 шт",
+        "price": 5800
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Апельсин»",
@@ -1037,7 +1667,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-oranz-1.webp"
+    "image": "images/drip-oranz-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 300
+      },
+      {
+        "label": "50 шт",
+        "price": 1450
+      },
+      {
+        "label": "200 шт",
+        "price": 5600
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Полуничний тарт»",
@@ -1050,7 +1694,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-polunicya.webp"
+    "image": "images/drip-polunicya.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 300
+      },
+      {
+        "label": "50 шт",
+        "price": 1450
+      },
+      {
+        "label": "200 шт",
+        "price": 5600
+      }
+    ]
   },
   {
     "name": "Мелена кава Minelly Bruno 250 г",
@@ -1076,7 +1734,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-karamel.webp"
+    "image": "images/drip-karamel.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 290
+      },
+      {
+        "label": "50 шт",
+        "price": 1400
+      },
+      {
+        "label": "200 шт",
+        "price": 5400
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly Коста Ріка Тарразу",
@@ -1089,7 +1761,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/img-5738.webp"
+    "image": "images/img-5738.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 290
+      },
+      {
+        "label": "50 шт",
+        "price": 1400
+      },
+      {
+        "label": "200 шт",
+        "price": 5400
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Ром»",
@@ -1102,7 +1788,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-rom.webp"
+    "image": "images/drip-rom.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 290
+      },
+      {
+        "label": "50 шт",
+        "price": 1400
+      },
+      {
+        "label": "200 шт",
+        "price": 5400
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Лісовий горіх»",
@@ -1115,7 +1815,21 @@
     "categories": [
       "DRIP - кава смакова"
     ],
-    "image": "images/drip-gorix.webp"
+    "image": "images/drip-gorix.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 290
+      },
+      {
+        "label": "50 шт",
+        "price": 1400
+      },
+      {
+        "label": "200 шт",
+        "price": 5400
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Колумбія Супремо»",
@@ -1128,7 +1842,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/img-5736.webp"
+    "image": "images/img-5736.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 280
+      },
+      {
+        "label": "50 шт",
+        "price": 1350
+      },
+      {
+        "label": "200 шт",
+        "price": 5200
+      }
+    ]
   },
   {
     "name": "Мелена кава Minelly Crema 250 г",
@@ -1167,7 +1895,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/img-5737.webp"
+    "image": "images/img-5737.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 260
+      },
+      {
+        "label": "50 шт",
+        "price": 1250
+      },
+      {
+        "label": "200 шт",
+        "price": 4800
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly Oro",
@@ -1180,7 +1922,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/drip-oro.webp"
+    "image": "images/drip-oro.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 250
+      },
+      {
+        "label": "50 шт",
+        "price": 1200
+      },
+      {
+        "label": "200 шт",
+        "price": 4600
+      }
+    ]
   },
   {
     "name": "Мелена кава Minelly Nero 250 г",
@@ -1206,7 +1962,21 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/krema-drip.webp"
+    "image": "images/krema-drip.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 230
+      },
+      {
+        "label": "50 шт",
+        "price": 1100
+      },
+      {
+        "label": "200 шт",
+        "price": 4200
+      }
+    ]
   },
   {
     "name": "Пірамідка кави Minelly «Senso»",
@@ -1219,7 +1989,21 @@
     "categories": [
       "Пірамідки кави"
     ],
-    "image": "images/piramidka-senso-1.webp"
+    "image": "images/piramidka-senso-1.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 230
+      },
+      {
+        "label": "50 шт",
+        "price": 1100
+      },
+      {
+        "label": "200 шт",
+        "price": 4200
+      }
+    ]
   },
   {
     "name": "Пірамідка кави Minelly «Amo»",
@@ -1232,7 +2016,21 @@
     "categories": [
       "Пірамідки кави"
     ],
-    "image": "images/piramidka-amo.webp"
+    "image": "images/piramidka-amo.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 220
+      },
+      {
+        "label": "50 шт",
+        "price": 1050
+      },
+      {
+        "label": "200 шт",
+        "price": 4000
+      }
+    ]
   },
   {
     "name": "Пірамідка кави Minelly «Vero»",
@@ -1245,7 +2043,21 @@
     "categories": [
       "Пірамідки кави"
     ],
-    "image": "images/piramidka-vero.webp"
+    "image": "images/piramidka-vero.webp",
+    "variants": [
+      {
+        "label": "10 шт",
+        "price": 220
+      },
+      {
+        "label": "50 шт",
+        "price": 1050
+      },
+      {
+        "label": "200 шт",
+        "price": 4000
+      }
+    ]
   },
   {
     "name": "Дріп-кава Minelly «Характер»",
@@ -1271,6 +2083,20 @@
     "categories": [
       "DRIP - кава без доданків"
     ],
-    "image": "images/drip-klasicnii.webp"
+    "image": "images/drip-klasicnii.webp",
+    "variants": [
+      {
+        "label": "1 шт",
+        "price": 20
+      },
+      {
+        "label": "50 шт",
+        "price": 950
+      },
+      {
+        "label": "200 шт",
+        "price": 3600
+      }
+    ]
   }
 ]

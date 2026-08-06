@@ -104,6 +104,31 @@ def collect_products_from_category(cat_slug):
     return sorted(all_slugs)
 
 
+def parse_variants(html):
+    """Извлекает multi-variants из HTML (по первому SKU prefix)."""
+    first_sku = re.search(r'"sku":"([^"]+)"', html)
+    if not first_sku:
+        return []
+    prefix = re.sub(r'-[A-Z]?\d+$', '', first_sku.group(1))
+    if not prefix or len(prefix) < 3:
+        return []
+    pattern = r'"short_title":"([^"]+)"[^}]*?"price":(\d+)[^}]*?"sku":"(' + re.escape(prefix) + r'-[^"]*)"'
+    seen = set()
+    variants = []
+    for m in re.finditer(pattern, html):
+        t = m.group(1).encode().decode('unicode_escape').strip().rstrip('.')
+        t = re.sub(r'^1000\s*г$', '1 кг', t)
+        if not re.search(r'(г|кг|шт|мл|л)', t):
+            continue
+        p = int(m.group(2))
+        if (t, p) in seen:
+            continue
+        seen.add((t, p))
+        variants.append({'label': t, 'price': p})
+    variants.sort(key=lambda x: x['price'])
+    return variants
+
+
 def parse_product(url):
     html = fetch(url)
     block = re.search(
@@ -135,7 +160,8 @@ def parse_product(url):
     desc = _html.unescape(desc)  # &mdash; &rsquo; &amp; &nbsp; etc.
     desc = re.sub(r"<[^>]+>", "", desc).strip()
 
-    return {
+    variants = parse_variants(html)
+    result = {
         "name": product.get("name"),
         "description": desc,
         "weight": product.get("weight"),
@@ -145,6 +171,9 @@ def parse_product(url):
         "image_url": image_url,
         "url": url,
     }
+    if len(variants) > 1:
+        result["variants"] = variants
+    return result
 
 
 def download_image(image_url):
