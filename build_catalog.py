@@ -258,6 +258,15 @@ def main():
     # Сортируем: сначала товары в наибольшем количестве категорий, затем по цене
     products.sort(key=lambda x: (-len(x["categories"]), -x["price"]))
 
+    # Merge ручных товаров из manual_products.json (не парсяться, живуть окремо)
+    if os.path.exists("manual_products.json"):
+        try:
+            manual = json.load(open("manual_products.json"))
+            products.extend(manual)
+            print(f"\n➕ merged {len(manual)} manual products from manual_products.json")
+        except Exception as e:
+            print(f"\n⚠ manual_products.json read failed: {e}")
+
     with open("catalog.json", "w") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
     print(f"\n💾 catalog.json — {len(products)} products")
