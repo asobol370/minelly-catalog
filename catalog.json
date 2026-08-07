@@ -82,12 +82,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kolumbiya-dekaf",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава",
-      "Кава без кофеїну"
-    ],
-    "image": "images/kolumbiya-supremo-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -101,7 +95,13 @@
         "label": "1 кг",
         "price": 1190
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава",
+      "Кава без кофеїну"
+    ],
+    "image": "images/kolumbiya-supremo-1.webp"
   },
   {
     "name": "Кава в зернах Гондурас Марагоджип",
@@ -111,11 +111,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/gonduras-maragodzip",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/gonduras-maragodzip-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -129,7 +124,12 @@
         "label": "1 кг",
         "price": 1722
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/gonduras-maragodzip-1.webp"
   },
   {
     "name": "Кава Гватемала Марагоджип",
@@ -139,11 +139,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/gvatemala-maragodzip",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/gvatemala-maragodzip.webp",
     "variants": [
       {
         "label": "250 г",
@@ -157,7 +152,12 @@
         "label": "1 кг",
         "price": 1722
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/gvatemala-maragodzip.webp"
   },
   {
     "name": "Кава Колумбія Марагоджип",
@@ -167,11 +167,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kolumbiya-maragodzip",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kolumbiya-maragodzip.webp",
     "variants": [
       {
         "label": "250 г",
@@ -185,7 +180,12 @@
         "label": "1 кг",
         "price": 1722
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kolumbiya-maragodzip.webp"
   },
   {
     "name": "Дріп-кава Minelly «MIX 2» Смакова (12 шт.)",
@@ -209,11 +209,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/efiopiya-xarrar",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/img-1224-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -227,7 +222,12 @@
         "label": "1 кг",
         "price": 1274
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/img-1224-1.webp"
   },
   {
     "name": "Кава в зернах Індонезія Мандхелінг",
@@ -237,11 +237,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/indoneziya-mandxeling",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/indoneziya-mandxeling-arabica-250-g-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -255,7 +250,12 @@
         "label": "1 кг",
         "price": 1262
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/indoneziya-mandxeling-arabica-250-g-1.webp"
   },
   {
     "name": "Кава Індонезія Суматра Лінтунг",
@@ -265,11 +265,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/indoneziya-sumatra-lintung",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/img-2417.webp",
     "variants": [
       {
         "label": "250 г",
@@ -283,7 +278,12 @@
         "label": "1 кг",
         "price": 1262
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/img-2417.webp"
   },
   {
     "name": "Кава Індонезія Ява",
@@ -293,11 +293,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/indoneziya-yava",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/indoneziya-yava.webp",
     "variants": [
       {
         "label": "250 г",
@@ -311,7 +306,12 @@
         "label": "1 кг",
         "price": 1262
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/indoneziya-yava.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Вишня»",
@@ -321,11 +321,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotcherryquot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/img-7212.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -339,7 +334,12 @@
         "label": "200 шт",
         "price": 6000
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/img-7212.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Айріш крем»",
@@ -349,11 +349,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotdecaf-irish-creamquot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/img-7213.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -367,7 +362,12 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/img-7213.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Тірамісу»",
@@ -377,11 +377,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotdecaf-tiramisuquot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/dekaf-tiramisu.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -395,7 +390,12 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/dekaf-tiramisu.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Ром»",
@@ -405,11 +405,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-rum",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/img-7214.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -423,7 +418,12 @@
         "label": "200 шт",
         "price": 6000
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/img-7214.webp"
   },
   {
     "name": "Дріп-кава Minelly «MIX» Смакова",
@@ -447,11 +447,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotcaramelquot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/img-7211.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -465,7 +460,12 @@
         "label": "200 шт",
         "price": 5900
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/img-7211.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Апельсин»",
@@ -475,11 +475,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotorangequot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/img-7210.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -493,7 +488,12 @@
         "label": "200 шт",
         "price": 5900
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/img-7210.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Полуничний тарт»",
@@ -503,11 +503,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-bez-kofeyinu-decaffeinated-quotstrawberry-cakequot",
-    "categories": [
-      "DRIP - кава смакова",
-      "Кава без кофеїну"
-    ],
-    "image": "images/dekaf-polunicya.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -521,7 +516,12 @@
         "label": "200 шт",
         "price": 5900
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова",
+      "Кава без кофеїну"
+    ],
+    "image": "images/dekaf-polunicya.webp"
   },
   {
     "name": "Дріп-кава без кофеїну Minelly «Декаф»",
@@ -531,11 +531,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotdecafquot",
-    "categories": [
-      "DRIP - кава без доданків",
-      "Кава без кофеїну"
-    ],
-    "image": "images/drip-dekaf.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -549,7 +544,12 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків",
+      "Кава без кофеїну"
+    ],
+    "image": "images/drip-dekaf.webp"
   },
   {
     "name": "Кава Гватемала Антигуа",
@@ -559,11 +559,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/gvatemala-antigua",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/img-3034.webp",
     "variants": [
       {
         "label": "250 г",
@@ -577,7 +572,12 @@
         "label": "1 кг",
         "price": 1120
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/img-3034.webp"
   },
   {
     "name": "Кава Коста Ріка Тарразу",
@@ -587,11 +587,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kosta-rika-tarrazu",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kosta-rika-tarrazu-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -605,7 +600,12 @@
         "label": "1 кг",
         "price": 1114
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kosta-rika-tarrazu-1.webp"
   },
   {
     "name": "Кава Коста Ріка",
@@ -615,11 +615,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kosta-rika",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kosta-rika-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -633,7 +628,12 @@
         "label": "1 кг",
         "price": 1082
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kosta-rika-1.webp"
   },
   {
     "name": "Кава в зернах Танзанія",
@@ -643,11 +643,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/tanzaniya",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/tanzaniya-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -661,7 +656,12 @@
         "label": "1 кг",
         "price": 1082
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/tanzaniya-1.webp"
   },
   {
     "name": "Кава Індія Мунсунд Малабар",
@@ -671,11 +671,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/indiya-munsund-malabar",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/indiya-munsund-malabar-arabica-250-g.webp",
     "variants": [
       {
         "label": "250г",
@@ -689,7 +684,12 @@
         "label": "1 кг",
         "price": 1074
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/indiya-munsund-malabar-arabica-250-g.webp"
   },
   {
     "name": "Кава в зернах Кенія АА",
@@ -699,11 +699,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/keniya-aa",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/keniya-aa-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -717,7 +712,12 @@
         "label": "1 кг",
         "price": 1078
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/keniya-aa-1.webp"
   },
   {
     "name": "Кава в зернах Папуа Нова Гвінея",
@@ -727,11 +727,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/papua-nova-gvineya",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/papua-nova-gvineya-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -745,7 +740,12 @@
         "label": "1 кг",
         "price": 1061
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/papua-nova-gvineya-1.webp"
   },
   {
     "name": "Дріп-кава Minelly MIX арабіки",
@@ -769,11 +769,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/gvatemala-arabika",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/gvatemala-arabika.webp",
     "variants": [
       {
         "label": "250 г",
@@ -787,7 +782,12 @@
         "label": "1 кг",
         "price": 1055
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/gvatemala-arabika.webp"
   },
   {
     "name": "Кава в зернах Руанда",
@@ -797,11 +797,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/ruanda",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/img-9693-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -815,7 +810,12 @@
         "label": "1 кг",
         "price": 1033
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/img-9693-1.webp"
   },
   {
     "name": "Кава Бразилія Жовтий Бурбон",
@@ -825,11 +825,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/braziliya-zovtii-burbon",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/braziliya-zovtii-burbon-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -843,7 +838,12 @@
         "label": "1 кг",
         "price": 1027
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/braziliya-zovtii-burbon-1.webp"
   },
   {
     "name": "Кава Ель Сальвадор",
@@ -853,11 +853,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/el-salvador",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/el-salvador-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -871,7 +866,12 @@
         "label": "1 кг",
         "price": 1027
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/el-salvador-1.webp"
   },
   {
     "name": "Кава Ефіопія Їргачоф",
@@ -881,11 +881,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/efiopiya-yirgacof",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/efiopiya-yirgacof-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -899,7 +894,12 @@
         "label": "1 кг",
         "price": 1022
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/efiopiya-yirgacof-1.webp"
   },
   {
     "name": "Кава Мексика",
@@ -909,11 +909,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/meksika",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/mek.webp",
     "variants": [
       {
         "label": "250 г",
@@ -927,7 +922,12 @@
         "label": "1 кг",
         "price": 1012
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/mek.webp"
   },
   {
     "name": "Кава в зернах Індія Плантейшн АА",
@@ -937,11 +937,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/indiya-planteisn-arabika-1",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/indiya-planteisn-aa-2.webp",
     "variants": [
       {
         "label": "250 г",
@@ -955,7 +950,12 @@
         "label": "1 кг",
         "price": 995
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/indiya-planteisn-aa-2.webp"
   },
   {
     "name": "Кава Гондурас",
@@ -965,11 +965,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/gonduras",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/gonduras-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -983,7 +978,12 @@
         "label": "1 кг",
         "price": 994
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/gonduras-1.webp"
   },
   {
     "name": "Кава Ефіопія Сидамо",
@@ -993,11 +993,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/efiopiya-sidamo",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/efiopiya-sidamo-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1011,7 +1006,12 @@
         "label": "1 кг",
         "price": 952
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/efiopiya-sidamo-1.webp"
   },
   {
     "name": "Кава Колумбія Ексельсо",
@@ -1021,11 +1021,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kolumbiya-ekselso",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kolumbiya-ekselso.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1039,7 +1034,12 @@
         "label": "1 кг",
         "price": 952
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kolumbiya-ekselso.webp"
   },
   {
     "name": "Кава Колумбія Супремо",
@@ -1049,11 +1049,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kolumbiya-supremo",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kolumbiya-supremo.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1067,7 +1062,12 @@
         "label": "1 кг",
         "price": 952
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kolumbiya-supremo.webp"
   },
   {
     "name": "Кава Бразилія Сантос",
@@ -1077,11 +1077,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/braziliya-santos",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/braziliya-santos-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1095,7 +1090,12 @@
         "label": "1 кг",
         "price": 865
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/braziliya-santos-1.webp"
   },
   {
     "name": "Кава Ефіопія Джима",
@@ -1105,11 +1105,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/efiopiya-dzima",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/efiopiya-dzima-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1123,7 +1118,12 @@
         "label": "1 кг",
         "price": 768
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/efiopiya-dzima-1.webp"
   },
   {
     "name": "Кава в зернах Китай Сімао",
@@ -1133,11 +1133,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/kitai-simao",
-    "categories": [
-      "Кава в зернах",
-      "Мелена кава"
-    ],
-    "image": "images/kitai-simao-1.webp",
     "variants": [
       {
         "label": "250 г",
@@ -1151,7 +1146,12 @@
         "label": "1 кг",
         "price": 768
       }
-    ]
+    ],
+    "categories": [
+      "Кава в зернах",
+      "Мелена кава"
+    ],
+    "image": "images/kitai-simao-1.webp"
   },
   {
     "name": "Лапо-Дріп — Дріп-кава від Minelly",
@@ -1448,10 +1448,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-cherry-10-st",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/visnya-drip-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1465,7 +1461,11 @@
         "label": "200 шт",
         "price": 6200
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/visnya-drip-1.webp"
   },
   {
     "name": "Дріп-кава Minelly «Кокос»",
@@ -1475,10 +1475,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcoconutquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-kokos-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1492,7 +1488,11 @@
         "label": "200 шт",
         "price": 6200
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-kokos-1.webp"
   },
   {
     "name": "Дріп-кава Minelly «Айріш крем»",
@@ -1502,10 +1502,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotirish-creamquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-airis-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1519,7 +1515,11 @@
         "label": "200 шт",
         "price": 6000
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-airis-1.webp"
   },
   {
     "name": "Дріп-кава Minelly Кенія",
@@ -1529,10 +1529,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotkenyaquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/img-5735.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1546,7 +1542,11 @@
         "label": "200 шт",
         "price": 6000
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/img-5735.webp"
   },
   {
     "name": "Дріп-кава Minelly «Шоколад»",
@@ -1556,10 +1556,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotchocolatequot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-sokolad-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1573,7 +1569,11 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-sokolad-1.webp"
   },
   {
     "name": "Дріп-кава Minelly «Кориця»",
@@ -1583,10 +1583,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcinnamonquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/img-6553.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1600,7 +1596,11 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/img-6553.webp"
   },
   {
     "name": "Дріп-кава Minelly Гватемала Антигуа",
@@ -1610,10 +1610,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotguatemala-antiguaquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/img-5739.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1627,7 +1623,11 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/img-5739.webp"
   },
   {
     "name": "Дріп-кава Minelly «Тірамісу»",
@@ -1637,10 +1637,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quottiramisuquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-tiramisu.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1654,7 +1650,11 @@
         "label": "200 шт",
         "price": 5800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-tiramisu.webp"
   },
   {
     "name": "Дріп-кава Minelly «Апельсин»",
@@ -1664,10 +1664,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotorangequot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-oranz-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1681,7 +1677,11 @@
         "label": "200 шт",
         "price": 5600
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-oranz-1.webp"
   },
   {
     "name": "Дріп-кава Minelly «Полуничний тарт»",
@@ -1691,10 +1691,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotstrawberry-cakequot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-polunicya.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1708,7 +1704,11 @@
         "label": "200 шт",
         "price": 5600
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-polunicya.webp"
   },
   {
     "name": "Мелена кава Minelly Bruno 250 г",
@@ -1731,10 +1731,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcaramelquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-karamel.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1748,7 +1744,11 @@
         "label": "200 шт",
         "price": 5400
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-karamel.webp"
   },
   {
     "name": "Дріп-кава Minelly Коста Ріка Тарразу",
@@ -1758,10 +1758,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcosta-rica-tarrazuquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/img-5738.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1775,7 +1771,11 @@
         "label": "200 шт",
         "price": 5400
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/img-5738.webp"
   },
   {
     "name": "Дріп-кава Minelly «Ром»",
@@ -1785,10 +1785,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotrumquot",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-rom.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1802,7 +1798,11 @@
         "label": "200 шт",
         "price": 5400
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-rom.webp"
   },
   {
     "name": "Дріп-кава Minelly «Лісовий горіх»",
@@ -1812,10 +1812,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-hazelnut",
-    "categories": [
-      "DRIP - кава смакова"
-    ],
-    "image": "images/drip-gorix.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1829,7 +1825,11 @@
         "label": "200 шт",
         "price": 5400
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава смакова"
+    ],
+    "image": "images/drip-gorix.webp"
   },
   {
     "name": "Дріп-кава Minelly «Колумбія Супремо»",
@@ -1839,10 +1839,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcolombia-supremoquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/img-5736.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1856,7 +1852,11 @@
         "label": "200 шт",
         "price": 5200
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/img-5736.webp"
   },
   {
     "name": "Мелена кава Minelly Crema 250 г",
@@ -1892,10 +1892,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotbrasil-santosquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/img-5737.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1909,7 +1905,11 @@
         "label": "200 шт",
         "price": 4800
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/img-5737.webp"
   },
   {
     "name": "Дріп-кава Minelly Oro",
@@ -1919,10 +1919,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotoroquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/drip-oro.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1936,7 +1932,11 @@
         "label": "200 шт",
         "price": 4600
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/drip-oro.webp"
   },
   {
     "name": "Мелена кава Minelly Nero 250 г",
@@ -1959,10 +1959,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotcremaquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/krema-drip.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -1976,7 +1972,11 @@
         "label": "200 шт",
         "price": 4200
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/krema-drip.webp"
   },
   {
     "name": "Пірамідка кави Minelly «Senso»",
@@ -1986,10 +1986,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/piramidka-senso",
-    "categories": [
-      "Пірамідки кави"
-    ],
-    "image": "images/piramidka-senso-1.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -2003,7 +1999,11 @@
         "label": "200 шт",
         "price": 4200
       }
-    ]
+    ],
+    "categories": [
+      "Пірамідки кави"
+    ],
+    "image": "images/piramidka-senso-1.webp"
   },
   {
     "name": "Пірамідка кави Minelly «Amo»",
@@ -2013,10 +2013,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/piramidka-amo",
-    "categories": [
-      "Пірамідки кави"
-    ],
-    "image": "images/piramidka-amo.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -2030,7 +2026,11 @@
         "label": "200 шт",
         "price": 4000
       }
-    ]
+    ],
+    "categories": [
+      "Пірамідки кави"
+    ],
+    "image": "images/piramidka-amo.webp"
   },
   {
     "name": "Пірамідка кави Minelly «Vero»",
@@ -2040,10 +2040,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/piramidka-vero",
-    "categories": [
-      "Пірамідки кави"
-    ],
-    "image": "images/piramidka-vero.webp",
     "variants": [
       {
         "label": "10 шт",
@@ -2057,7 +2053,11 @@
         "label": "200 шт",
         "price": 4000
       }
-    ]
+    ],
+    "categories": [
+      "Пірамідки кави"
+    ],
+    "image": "images/piramidka-vero.webp"
   },
   {
     "name": "Дріп-кава Minelly «Характер»",
@@ -2080,10 +2080,6 @@
     "currency": "UAH",
     "in_stock": true,
     "url": "https://minelly.com.ua/drip-kava-tm-minelly-drip-quotklasicniiquot",
-    "categories": [
-      "DRIP - кава без доданків"
-    ],
-    "image": "images/drip-klasicnii.webp",
     "variants": [
       {
         "label": "1 шт",
@@ -2097,7 +2093,11 @@
         "label": "200 шт",
         "price": 3600
       }
-    ]
+    ],
+    "categories": [
+      "DRIP - кава без доданків"
+    ],
+    "image": "images/drip-klasicnii.webp"
   },
   {
     "name": "Набір меленої кави Minelly №1 BRUNO + CREMA 500 г",
