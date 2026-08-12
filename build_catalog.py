@@ -83,7 +83,8 @@ def collect_products_from_category(cat_slug):
             print(f"    ✗ page {page}: {e}")
             break
 
-        hrefs = re.findall(r'href="/([a-z0-9][a-z0-9-]{4,120})(?:\?[^"]*)?"', html)
+        # {3,120}: мінімум 4 символи — інакше короткі slugs типу "peru" губляться
+        hrefs = re.findall(r'href="/([a-z0-9][a-z0-9-]{3,120})(?:\?[^"]*)?"', html)
         page_products = set()
         for h in hrefs:
             if h in NON_PRODUCT or "/" in h:
