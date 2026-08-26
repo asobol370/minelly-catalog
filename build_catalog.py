@@ -53,6 +53,8 @@ NON_PRODUCT.update({
     "drip-kava-bez-kofeyinu-smakova", "drip-kava-bez-kofeyinu-monosortova",
     "drip-kava-bez-kofeyinu-kolumbiya", "dostavka-do-krayin-eu",
     "melena-zernova-bez-kofeyinu-kolumbiya",
+    # прибрані з швидкого каталогу на прохання клієнта (26.08.2026)
+    "kava-u-zerni-keniia-ab-handege",
 })
 
 
