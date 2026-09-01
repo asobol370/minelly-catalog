@@ -270,6 +270,15 @@ def main():
         except Exception as e:
             print(f"\n⚠ manual_products.json read failed: {e}")
 
+    # цінові оверрайди (підвищення 01.09.2026): діють, поки сайт віддає стару ціну
+    try:
+        from apply_overrides import apply as apply_price_overrides
+        n_ov = apply_price_overrides(products)
+        if n_ov:
+            print(f"applied {n_ov} price overrides")
+    except Exception as e:
+        print(f"price overrides failed: {e}")
+
     with open("catalog.json", "w") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
     print(f"\n💾 catalog.json — {len(products)} products")
