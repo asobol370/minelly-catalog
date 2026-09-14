@@ -20,7 +20,7 @@
     "weight": "0.25 кг",
     "price": 450.0,
     "currency": "UAH",
-    "in_stock": true,
+    "in_stock": false,
     "url": "https://minelly.com.ua/kava-speslti-u-zerni-gonduras-corintio-250-gram",
     "categories": [
       "Кава в зернах",
