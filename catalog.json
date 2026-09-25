@@ -772,6 +772,10 @@
       {
         "label": "500 г",
         "price": 552
+      },
+      {
+        "label": "1 кг",
+        "price": 1061
       }
     ],
     "categories": [
