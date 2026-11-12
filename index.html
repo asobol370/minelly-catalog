@@ -267,6 +267,28 @@
 			.card-name { font-size: 14px; }
 			.card-price { font-size: 19px; }
 		}
+
+		/* === Модалка товару (preview) === */
+		.card { cursor: pointer; }
+		.modal-ov { position: fixed; inset: 0; background: rgba(0,0,0,.65); z-index: 1000; display: none; align-items: flex-end; justify-content: center; }
+		.modal-ov.open { display: flex; }
+		.modal { background: var(--surface); width: 100%; max-width: 560px; max-height: 88vh; border-radius: 18px 18px 0 0; display: flex; flex-direction: column; overflow: hidden; position: relative; animation: mnlUp .22s ease; border: 1px solid rgba(255,255,255,.07); }
+		@keyframes mnlUp { from { transform: translateY(40px); opacity: .5; } to { transform: none; opacity: 1; } }
+		.modal-x { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border: none; border-radius: 50%; background: rgba(0,0,0,.45); color: #fff; font-size: 17px; line-height: 36px; text-align: center; cursor: pointer; z-index: 2; padding: 0; }
+		.modal-img { background: #f5f0e6; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; }
+		.modal-img img { width: 100%; max-height: 36vh; object-fit: contain; padding: 14px; box-sizing: border-box; }
+		.modal-scroll { padding: 14px 16px 6px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+		.modal-name { font-size: 17px; font-weight: 700; line-height: 1.3; color: var(--text); padding-right: 24px; }
+		.modal-variants { display: flex; flex-direction: column; gap: 7px; }
+		.modal-variants .m-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--text); border-bottom: 1px dashed rgba(255,255,255,.08); padding-bottom: 5px; }
+		.modal-variants .m-row b { color: #FFD600; font-weight: 700; }
+		.modal-price { font-size: 20px; font-weight: 700; color: #FFD600; }
+		.modal-price small { font-size: 13px; font-weight: 600; }
+		.modal-desc { font-size: 13.5px; line-height: 1.55; color: var(--text-muted); }
+		.modal-foot { padding: 10px 16px calc(14px + env(safe-area-inset-bottom)); flex: 0 0 auto; }
+		.modal-order { display: block; text-align: center; text-decoration: none; background: #FFD600; color: #1a0f11; font-weight: 700; font-size: 15px; padding: 14px; border-radius: 12px; }
+		.modal-order:active { transform: scale(.98); }
+		@media (min-width: 720px) { .modal-ov { align-items: center; padding: 24px; } .modal { border-radius: 18px; } }
 	</style>
 </head>
 <body>
@@ -283,6 +305,22 @@
 
 	<main class="grid" id="grid"></main>
 
+	<div class="modal-ov" id="modal-ov">
+		<div class="modal" role="dialog" aria-modal="true">
+			<button class="modal-x" id="modal-x" aria-label="Закрити">✕</button>
+			<div class="modal-img" id="modal-img"></div>
+			<div class="modal-scroll">
+				<div class="modal-name" id="modal-name"></div>
+				<div class="modal-variants" id="modal-variants"></div>
+				<div class="modal-price" id="modal-price"></div>
+				<div class="modal-desc" id="modal-desc"></div>
+			</div>
+			<div class="modal-foot">
+				<a class="modal-order" id="modal-order" target="_blank" rel="noopener">Замовити в Telegram</a>
+			</div>
+		</div>
+	</div>
+
 	<div class="tg-bar">
 		<a class="tg-btn" href="https://t.me/minelly_coffee" target="_blank" rel="noopener">
 			<svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
@@ -294,7 +332,83 @@
 	<script>
 		const TG_LINK = 'https://t.me/minelly_coffee';
 		const products = JSON.parse(document.getElementById('catalog-data').textContent);
+		products.forEach((p, i) => {
+			p._id = i;
+			let s = '';
+			if (p.url && p.url.indexOf('manual://') === 0) s = p.url.slice(9);
+			else if (p.url) s = (p.url.split('/').filter(Boolean).pop() || '');
+			p._slug = s || ('item-' + i);
+		});
 		render(products);
+
+		// === Модалка товару + замовлення в Telegram (preview) ===
+		const TG_USER = 'minelly_coffee';
+		const MENU_URL = 'https://menu.minelly.com.ua/';
+		// ЧЕРНЕТКА тексту повідомлення — фінальний текст погоджується окремо:
+		function buildMsg(name, link) {
+			return '\u0426\u0456\u043a\u0430\u0432\u0438\u0442\u044c \u0442\u043e\u0432\u0430\u0440: ' + name + '.\n\u041f\u043e\u0441\u0438\u043b\u0430\u043d\u043d\u044f: ' + link;
+		}
+
+		products.forEach((p, i) => {
+			p._id = i;
+			let slug = '';
+			if (p.url && p.url.indexOf('manual://') === 0) slug = p.url.slice(9);
+			else if (p.url) slug = (p.url.split('/').filter(Boolean).pop() || '');
+			p._slug = slug || ('item-' + i);
+		});
+
+		const mOv = document.getElementById('modal-ov');
+		const mImg = document.getElementById('modal-img');
+		const mName = document.getElementById('modal-name');
+		const mVars = document.getElementById('modal-variants');
+		const mPrice = document.getElementById('modal-price');
+		const mDesc = document.getElementById('modal-desc');
+		const mOrder = document.getElementById('modal-order');
+
+		function productLink(p) {
+			return (p.url && p.url.indexOf('http') === 0) ? p.url : (MENU_URL + '#' + encodeURIComponent(p._slug));
+		}
+
+		function openModal(p) {
+			mImg.innerHTML = p.image ? '<img src="' + p.image + '" alt="' + escapeHtml(p.name) + '">' : '';
+			mName.textContent = p.name;
+			const hasVariants = p.variants && p.variants.length > 1;
+			mVars.innerHTML = hasVariants
+				? p.variants.map(v => '<div class="m-row"><span>' + escapeHtml(v.label) + '</span><b>' + v.price + ' \u0433\u0440\u043d</b></div>').join('')
+				: '';
+			mVars.style.display = hasVariants ? '' : 'none';
+			mPrice.innerHTML = hasVariants ? '' : Math.round(p.price) + ' <small>\u0433\u0440\u043d</small>';
+			mPrice.style.display = hasVariants ? 'none' : '';
+			mDesc.textContent = p.description || '';
+			mOrder.href = 'https://t.me/' + TG_USER + '?text=' + encodeURIComponent(buildMsg(p.name, productLink(p)));
+			mOv.classList.add('open');
+			document.body.style.overflow = 'hidden';
+			if (history.replaceState) history.replaceState(null, '', location.pathname + location.search + '#' + encodeURIComponent(p._slug));
+		}
+
+		function closeModal() {
+			mOv.classList.remove('open');
+			document.body.style.overflow = '';
+			if (history.replaceState) history.replaceState(null, '', location.pathname + location.search);
+		}
+
+		document.getElementById('modal-x').addEventListener('click', closeModal);
+		mOv.addEventListener('click', e => { if (e.target === mOv) closeModal(); });
+		document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+		document.getElementById('grid').addEventListener('click', e => {
+			const card = e.target.closest('.card');
+			if (!card) return;
+			const p = products[+card.dataset.id];
+			if (p) openModal(p);
+		});
+
+		// Відкриття за якорем: menu.minelly.com.ua/#slug
+		(function () {
+			const h = decodeURIComponent((location.hash || '').slice(1));
+			if (!h) return;
+			const p = products.find(x => x._slug === h);
+			if (p) { openModal(p); const el = document.getElementById(p._slug); if (el) el.scrollIntoView({ block: 'center' }); }
+		})();
 
 		function render(products) {
 			// Порядок категорий как на сайте
@@ -347,7 +461,7 @@
 						}
 					}
 					return `
-					<article class="card">
+					<article class="card" data-id="${p._id}" id="${p._slug}">
 						<div class="card-image">
 							${p.image ? `<img src="${p.image}" alt="${escapeHtml(name)}" loading="lazy">` : ''}
 						</div>
