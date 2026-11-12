@@ -333,6 +333,13 @@
 	<script>
 		const TG_LINK = 'https://t.me/minelly_coffee';
 		const products = JSON.parse(document.getElementById('catalog-data').textContent);
+		products.forEach((p, i) => {
+			p._id = i;
+			let s = '';
+			if (p.url && p.url.indexOf('manual://') === 0) s = p.url.slice(9);
+			else if (p.url) s = (p.url.split('/').filter(Boolean).pop() || '');
+			p._slug = s || ('item-' + i);
+		});
 		render(products);
 
 		// === Модалка товару + замовлення в Telegram (preview) ===
