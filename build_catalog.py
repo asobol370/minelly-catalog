@@ -25,12 +25,16 @@ CATEGORIES = [
     (["drip-kava-smakova", "drip-kava-bez-kofeyinu-smakova"], "DRIP - кава смакова"),
     ("kava-bez-kofeyinu", "Кава без кофеїну"),
     (None, "Пірамідки кави"),  # спецкейс — фиксированный список товаров
-    ("melena-aromatizovana", "Дегустаційні набори"),  # именно этот URL на сайте
+    ("dehustatsiini-nabory", "Дегустаційні набори"),  # з 11.2026 на сайті є своя категорія наборів
     ("podarunkovi-sertifikati", "Подарункові сертифікати"),
 ]
 
 # Пірамідки — нет страницы категории, товары зафиксированы (на сайте показывается 3)
 PIRAMIDKI_SLUGS = ["piramidka-amo", "piramidka-senso", "piramidka-vero"]
+
+# Товары, которые есть на сайте, но клиент не вывел их на страницу категории.
+# Дедуп: если слаг позже появится в категории — категория не задвоится, товар один.
+EXTRA_SLUGS = {"nabir-7": "Дегустаційні набори"}
 
 # Слаги, которые НЕ являются товарами (собираются с страниц категорий)
 NON_PRODUCT = set()
@@ -233,6 +237,13 @@ def main():
     for cat, slugs in cat_to_slugs.items():
         for s in slugs:
             slug_to_cats.setdefault(s, []).append(cat)
+
+    # Доборка EXTRA_SLUGS (товары вне категорий сайта)
+    for s, cat in EXTRA_SLUGS.items():
+        cats = slug_to_cats.setdefault(s, [])
+        if cat not in cats:
+            cats.append(cat)
+        all_slugs.add(s)
 
     print(f"\n=== Total unique products: {len(all_slugs)} ===")
 
