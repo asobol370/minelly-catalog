@@ -384,7 +384,7 @@
 			mOrder.href = 'https://t.me/' + TG_USER + '?text=' + encodeURIComponent(buildMsg(p.name, productLink(p)));
 			mOv.classList.add('open');
 			document.body.style.overflow = 'hidden';
-			if (history.replaceState) history.replaceState(null, '', '#' + encodeURIComponent(p._slug));
+			if (history.replaceState) history.replaceState(null, '', location.pathname + location.search + '#' + encodeURIComponent(p._slug));
 		}
 
 		function closeModal() {
