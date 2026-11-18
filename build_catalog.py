@@ -36,6 +36,11 @@ PIRAMIDKI_SLUGS = ["piramidka-amo", "piramidka-senso", "piramidka-vero"]
 # Дедуп: если слаг позже появится в категории — категория не задвоится, товар один.
 EXTRA_SLUGS = {"nabir-7": "Дегустаційні набори"}
 
+# Товары, которые клиент попросил убрать из меню (даже если они есть на сайте).
+EXCLUDE_SLUGS = {
+    "kava-melena-minelly-braziliia-zovtii-burbon-200-g",  # 18.11.2026, просьба Влада
+}
+
 # Слаги, которые НЕ являются товарами (собираются с страниц категорий)
 NON_PRODUCT = set()
 for slug, _ in CATEGORIES:
@@ -244,6 +249,9 @@ def main():
         if cat not in cats:
             cats.append(cat)
         all_slugs.add(s)
+
+    # Исключения по просьбе клиента
+    all_slugs -= EXCLUDE_SLUGS
 
     print(f"\n=== Total unique products: {len(all_slugs)} ===")
 
