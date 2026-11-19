@@ -7,7 +7,7 @@
 	<title>Minelly · Швидкий каталог</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 	<style>
 		:root {
 			--bg: #E1E7EF;
@@ -87,10 +87,13 @@
 		}
 		.chip:hover { color: var(--text); }
 		.chip.active {
-			background: var(--accent);
-			color: var(--ink);
-			border-color: var(--accent);
-			font-weight: 600;
+			background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%);
+			background-size: 150%;
+			background-position-x: 100%;
+			color: #fff;
+			border-color: transparent;
+			font-weight: 700;
+			box-shadow: 0 4px 4px #b47f2b69;
 		}
 		.chip-count {
 			display: inline-block;
@@ -232,25 +235,28 @@
 			width: 100%;
 			max-width: 100%;
 			padding: 14px 24px;
-			background: var(--accent);
-			color: var(--ink);
+			background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%);
+			background-size: 150%;
+			background-position-x: 100%;
+			color: #fff;
 			border: none;
-			border-radius: 14px;
-			font-size: 15px;
+			border-radius: 10px;
+			font-size: 16px;
 			font-weight: 700;
 			cursor: pointer;
 			text-decoration: none;
-			font-family: inherit;
-			box-shadow: 0 8px 24px rgba(219, 170, 53, 0.35);
+			font-family: 'Open Sans', sans-serif;
+			box-shadow: 0 4px 4px #b47f2b69;
+			transition: background-position-x .35s ease;
 		}
-		.tg-btn:hover { background: #e3b84d; }
+		.tg-btn:hover { background-position-x: 0; }
 		.tg-btn svg { width: 20px; height: 20px; }
 
 		@media (min-width: 720px) {
 			.tg-bar { padding: 20px; }
 			.tg-btn {
 				max-width: 380px;
-				border-radius: 999px;
+				border-radius: 10px;
 				padding: 14px 28px;
 			}
 		}
@@ -288,7 +294,8 @@
 		.modal-price small { font-size: 13px; font-weight: 600; }
 		.modal-desc { font-size: 13.5px; line-height: 1.55; color: var(--text-muted); }
 		.modal-foot { padding: 10px 16px calc(14px + env(safe-area-inset-bottom)); flex: 0 0 auto; }
-		.modal-order { display: block; text-align: center; text-decoration: none; background: var(--accent); color: var(--ink); font-weight: 700; font-size: 15px; padding: 14px; border-radius: 12px; }
+		.modal-order { display: block; text-align: center; text-decoration: none; background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%); background-size: 150%; background-position-x: 100%; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 16px; padding: 14px; border-radius: 10px; box-shadow: 0 4px 4px #b47f2b69; transition: background-position-x .35s ease; }
+		.modal-order:hover { background-position-x: 0; }
 		.modal-order:active { transform: scale(.98); }
 		@media (min-width: 720px) { .modal-ov { align-items: center; padding: 24px; } .modal { border-radius: 18px; } }
 	</style>
