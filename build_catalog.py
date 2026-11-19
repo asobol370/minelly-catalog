@@ -39,6 +39,9 @@ EXTRA_SLUGS = {"nabir-7": "Дегустаційні набори"}
 # Товары, которые клиент попросил убрать из меню (даже если они есть на сайте).
 EXCLUDE_SLUGS = {
     "kava-melena-minelly-braziliia-zovtii-burbon-200-g",  # 18.11.2026, просьба Влада
+    "kava-melena-minelly-keniia-aa-200-g",  # 19.11.2026, просьба Влада
+    "kava-melena-minelly-gvatemala-antigua-200-g",  # 19.11.2026, просьба Влада
+    "kava-melena-minelly-kolumbiia-supremo-200-g",  # 19.11.2026, просьба Влада
 }
 
 # Слаги, которые НЕ являются товарами (собираются с страниц категорий)
