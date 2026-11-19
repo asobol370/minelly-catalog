@@ -6,17 +6,18 @@
 	<title>Minelly · Швидкий каталог</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 	<style>
 		:root {
-			--bg: #1a0f11;
-			--surface: #2a1a1d;
-			--surface-2: #362023;
-			--accent: #FFD600;
-			--accent-dim: #d4b200;
-			--text: #ffffff;
-			--text-muted: #ABA7AF;
-			--border: rgba(255, 214, 0, 0.15);
+			--bg: #83A5C1;
+			--surface: #E1E7EF;
+			--surface-2: #d3dce7;
+			--accent: #DBAA35;
+			--accent-dim: #c4962a;
+			--ink: #142231;
+			--text: #142231;
+			--text-muted: #2a4155;
+			--border: rgba(20, 34, 49, 0.12);
 		}
 
 		* { box-sizing: border-box; margin: 0; padding: 0; }
@@ -74,9 +75,9 @@
 			flex-shrink: 0;
 			padding: 8px 16px;
 			border-radius: 20px;
-			background: var(--surface);
+			background: #ffffff;
 			color: var(--text-muted);
-			border: 1px solid var(--border);
+			border: 1px solid rgba(131, 165, 193, 0.55);
 			font-size: 13px;
 			font-weight: 500;
 			cursor: pointer;
@@ -85,17 +86,20 @@
 		}
 		.chip:hover { color: var(--text); }
 		.chip.active {
-			background: var(--accent);
-			color: var(--bg);
-			border-color: var(--accent);
-			font-weight: 600;
+			background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%);
+			background-size: 150%;
+			background-position-x: 100%;
+			color: #fff;
+			border-color: transparent;
+			font-weight: 700;
+			box-shadow: 0 4px 4px #b47f2b69;
 		}
 		.chip-count {
 			display: inline-block;
 			margin-left: 4px;
 			padding: 1px 6px;
 			border-radius: 10px;
-			background: rgba(255, 255, 255, 0.1);
+			background: rgba(20, 34, 49, 0.08);
 			font-size: 11px;
 			font-weight: 500;
 			opacity: 0.75;
@@ -116,7 +120,8 @@
 			background: var(--surface);
 			border-radius: 14px;
 			overflow: hidden;
-			border: 1px solid rgba(255, 255, 255, 0.05);
+			border: 1px solid rgba(255, 255, 255, 0.6);
+			box-shadow: 0 4px 14px rgba(20, 34, 49, 0.14);
 			display: flex;
 			flex-direction: column;
 			transition: transform .15s ease, border-color .15s ease;
@@ -175,7 +180,7 @@
 		.card-price {
 			font-size: 17px;
 			font-weight: 700;
-			color: var(--accent);
+			color: var(--ink);
 		}
 		.card-price small {
 			font-size: 11px;
@@ -195,12 +200,12 @@
 			align-items: baseline;
 			font-size: 12px;
 			color: var(--text-muted);
-			border-top: 1px dashed rgba(255,255,255,0.06);
+			border-top: 1px dashed rgba(20,34,49,0.18);
 			padding-top: 4px;
 		}
 		.variant-row:first-child { border-top: none; padding-top: 0; }
 		.variant-price {
-			color: var(--accent);
+			color: var(--ink);
 			font-weight: 700;
 			font-size: 14px;
 		}
@@ -230,25 +235,28 @@
 			width: 100%;
 			max-width: 100%;
 			padding: 14px 24px;
-			background: var(--accent);
-			color: var(--bg);
+			background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%);
+			background-size: 150%;
+			background-position-x: 100%;
+			color: #fff;
 			border: none;
-			border-radius: 14px;
-			font-size: 15px;
+			border-radius: 10px;
+			font-size: 16px;
 			font-weight: 700;
 			cursor: pointer;
 			text-decoration: none;
-			font-family: inherit;
-			box-shadow: 0 8px 24px rgba(255, 214, 0, 0.25);
+			font-family: 'Open Sans', sans-serif;
+			box-shadow: 0 4px 4px #b47f2b69;
+			transition: background-position-x .35s ease;
 		}
-		.tg-btn:hover { background: #ffe240; }
+		.tg-btn:hover { background-position-x: 0; }
 		.tg-btn svg { width: 20px; height: 20px; }
 
 		@media (min-width: 720px) {
 			.tg-bar { padding: 20px; }
 			.tg-btn {
 				max-width: 380px;
-				border-radius: 999px;
+				border-radius: 10px;
 				padding: 14px 28px;
 			}
 		}
@@ -268,32 +276,35 @@
 			.card-price { font-size: 19px; }
 		}
 
+		/* Текст у картках і модалці — фірмовий коричневий (як у лого minelly.com.ua) */
+		.card, .modal { --text: #462000; --ink: #462000; --text-muted: #6b4a36; }
 		/* === Модалка товару (preview) === */
 		.card { cursor: pointer; }
 		.modal-ov { position: fixed; inset: 0; background: rgba(0,0,0,.65); z-index: 1000; display: none; align-items: flex-end; justify-content: center; }
 		.modal-ov.open { display: flex; }
-		.modal { background: var(--surface); width: 100%; max-width: 560px; max-height: 88vh; border-radius: 18px 18px 0 0; display: flex; flex-direction: column; overflow: hidden; position: relative; animation: mnlUp .22s ease; border: 1px solid rgba(255,255,255,.07); }
+		.modal { background: var(--surface); width: 100%; max-width: 560px; max-height: 88vh; border-radius: 18px 18px 0 0; display: flex; flex-direction: column; overflow: hidden; position: relative; animation: mnlUp .22s ease; border: 1px solid rgba(20,34,49,.08); }
 		@keyframes mnlUp { from { transform: translateY(40px); opacity: .5; } to { transform: none; opacity: 1; } }
 		.modal-x { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border: none; border-radius: 50%; background: rgba(0,0,0,.45); color: #fff; font-size: 17px; line-height: 36px; text-align: center; cursor: pointer; z-index: 2; padding: 0; }
-		.modal-img { background: #f5f0e6; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; }
+		.modal-img { background: var(--surface); flex: 0 0 auto; display: flex; align-items: center; justify-content: center; }
 		.modal-img img { width: 100%; max-height: 36vh; object-fit: contain; padding: 14px; box-sizing: border-box; }
 		.modal-scroll { padding: 14px 16px 6px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
 		.modal-name { font-size: 17px; font-weight: 700; line-height: 1.3; color: var(--text); padding-right: 24px; }
 		.modal-variants { display: flex; flex-direction: column; gap: 7px; }
-		.modal-variants .m-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--text); border-bottom: 1px dashed rgba(255,255,255,.08); padding-bottom: 5px; }
-		.modal-variants .m-row b { color: #FFD600; font-weight: 700; }
-		.modal-price { font-size: 20px; font-weight: 700; color: #FFD600; }
+		.modal-variants .m-row { display: flex; justify-content: space-between; font-size: 14px; color: var(--text); border-bottom: 1px dashed rgba(20,34,49,.18); padding-bottom: 5px; }
+		.modal-variants .m-row b { color: var(--ink); font-weight: 700; }
+		.modal-price { font-size: 20px; font-weight: 700; color: var(--ink); }
 		.modal-price small { font-size: 13px; font-weight: 600; }
 		.modal-desc { font-size: 13.5px; line-height: 1.55; color: var(--text-muted); }
 		.modal-foot { padding: 10px 16px calc(14px + env(safe-area-inset-bottom)); flex: 0 0 auto; }
-		.modal-order { display: block; text-align: center; text-decoration: none; background: #FFD600; color: #1a0f11; font-weight: 700; font-size: 15px; padding: 14px; border-radius: 12px; }
+		.modal-order { display: block; text-align: center; text-decoration: none; background: linear-gradient(270deg, #cc8f00 6.89%, #ffeb85 99.44%); background-size: 150%; background-position-x: 100%; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 700; font-size: 16px; padding: 14px; border-radius: 10px; box-shadow: 0 4px 4px #b47f2b69; transition: background-position-x .35s ease; }
+		.modal-order:hover { background-position-x: 0; }
 		.modal-order:active { transform: scale(.98); }
 		@media (min-width: 720px) { .modal-ov { align-items: center; padding: 24px; } .modal { border-radius: 18px; } }
 	</style>
 </head>
 <body>
 	<header>
-		<div class="logo"><img src="logo.png" alt="Minelly"></div>
+		<div class="logo"><img src="logo-dark.svg" alt="Minelly"></div>
 	</header>
 
 	<section class="hero">
